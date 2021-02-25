@@ -1,0 +1,283 @@
+
+ @import url(../fonts/fontawesome/css/all.css);
+body{
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-seri
+}
+#headerBlock{
+    background: #fff;
+    padding: 10px;
+    height: 45px;
+}     
+
+.leftBlock{
+    width:70%;
+    float:left;
+}
+.rightBlock{
+    width: 30%;
+    float: left;
+    text-align: right;
+    line-height: 40px;
+}
+
+#headerBlock article{
+    width: 1200px;
+    margin:0 auto;
+    background-color: violet;
+}
+
+.logo img{
+    width:290px;
+}
+
+.leftmenu ul , 
+.rightBlock ul{
+    list-style:none;
+    padding:0;
+    margin:0 ;
+}
+.leftmenu ul li a , 
+.rightBlock ul li a {
+    color: #666;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+}
+.leftmenu ul li{
+     display:inline-block;
+}
+.logo{
+    width: 40%;
+    float: left;
+}
+.leftmenu{
+    width: 60%;
+    float:left;
+    line-height: 40px;
+}
+
+
+/* Slider Block css starts here */
+
+#sliderBlock{
+    background: url('../images/img2.jpg');
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+#sliderBlock article{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#sliderBlock h1{
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+   
+}
+#sliderBlock p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+#sliderBlock form select{
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 30px;
+}
+#sliderBlock form input{
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+}
+.overlay{
+    background: rgba(77,77,77,0.5);
+    height: 370px;
+   
+}
+           /* POSTION absolute notes...... 
+#testPosition{
+    background-color: red;
+    padding: 100px;
+    position: relative;
+}
+#testPosition div{
+    padding: 100px;
+    height: 200px; 
+    width: 200px;
+    border: 1px solid #111;
+}
+#testPosition .test1{
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    left: 100px;
+    top:0px
+}
+#testPosition .test2{
+    background-color: yellow;
+  
+}
+#testPosition .test3{
+    background-color: cyan;
+   
+}       */
+/* after slider  */
+
+#afterSlider{
+    background-color: #eee;
+
+}
+#afterSlider article{
+    width: 1200px;
+    margin: 0 auto;
+}
+#afterSlider article div{
+   float: left;
+   width:15%;
+   text-align: center;
+   padding: 40px 10px 0px;
+}
+#afterSlider article div h2{
+    font-size: 15px;
+    color: #666;
+}
+#afterSlider article div span i{
+    font-size: 40px;
+    color: #666;
+}
+/* ServicesBlock*/
+
+#serviceBlock{
+    background-color: #fff;
+    clear: both;
+    height: 270px;
+    padding: 30px 0;
+}
+
+#serviceBlock article{
+    width: 1200px;
+    margin: 0 auto;
+}
+#serviceBlock article div,
+#wedding_Services article div,
+#fitnessYoga artical div {
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+#serviceBlock article div img,
+#wedding_Services article div img,
+#fitnessYoga artical div img{
+    width: 100%;
+    height:150px;
+    border-radius: 10px;
+}  
+ /*#   sliderBlock h1 , #sliderBlock p {
+      display: inline-block;
+ }*/
+
+/*wedding services css start*/
+#wedding_Services,
+#fitnessYoga article{
+   
+   color: both;
+   background-color: #fff;
+    height:300px;
+}
+#wedding_Services article{
+    width: 1200px;
+   margin: 0 auto;
+   padding: 2px 0px;
+}
+
+
+/*  appsection css start here*/
+/*  appsection css start here*/
+#appSection{
+    clear: both;
+    background-color:white;
+}
+#appSection article{
+    width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    background-color: #eee;
+    padding: 40px 0;
+
+}
+.appLeft{
+    width: 40%;
+    float: left;
+    
+}
+..appRight{
+    width: 60%;
+    text-align: left;
+    line-height: 40px;
+}
+.appRight h2{
+    color: black;
+}
+
+#appSection article .appLeft{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+#appSection article .appRight{
+    text-align: left;
+    width: 55%;
+    float: left;
+}
+.appleft img{
+    width: 220px;
+    
+}
+.appRight h1{
+    font-size: 30px;
+    padding: 10px 0;
+    margin: 40px 0 0;
+}
+.appRight p{
+    color: #666;
+}
+.appRight form select{
+    padding: 20px 25px;
+    border: none;
+
+}
+.apppRight form input{
+    padding: 20px;
+    width:60%;
+    box-sizing: border-box;
+    margin: 0;
+    border: none;
+}
+.appRight form button{
+    background-color: #111;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 30px;
+    border: none;
+    position:absolute;
+    right:167px;
+    top: 9px;
+
+}
+.appRight form{
+    position: relative;
+}
